@@ -1,0 +1,333 @@
+<html>
+<title>Пам'ятка</title>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px 80px;
+    }
+    p {
+        font-size: 20px;
+    }
+    td {
+        border: 1px solid black;
+        padding: 7px;
+    }
+    header, main, footer {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    font {
+        background-color: #bebee3;
+        border-radius: 4px;
+        padding: 2px 4px;
+        line-height: 40px;
+    }
+</style>
+
+<body style="font-family: sans-serif;" background="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=1200,800">
+    <!-- https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=1200,800 -->
+    <header style="background-color: skyblue; padding: 20px; font-size: 20px; text-align: center; margin-top: 60px"> 
+            <!-- Кольори: lightblue skyblue; -->
+        
+            <!-- <img src="https://zabeidanazar.github.io/my_website/images/logo/l6.png" height="90px"> -->
+            <img src="https://zabeidanazar.github.io/my_website/images/logo/l7.png" height="80px" style="margin-bottom: 5px">
+            <br>
+            <a style="color: black; margin: 5px" href="#html">Html</a>
+            <a style="color: black; margin: 5px" href="#tagtag">Парні теги</a>
+            <a style="color: black; margin: 5px" href="#tag">Одинарні теги</a>
+            <a style="color: black; margin: 5px" href="#css">Css</a>
+            <a style="color: black; margin: 5px" href="#style">Css стилі</a>
+    
+    </header>
+
+
+
+    <main style="background-color: #E6E6FA; padding: 5px 20px">
+        <h1 style="font-size: 50px; text-align: center">Html і Css — Пам'ятка</h1>
+        <p>На цьому сайті я розмістив html теги і css стилі, які вже вивчив. Поки я створював його, ще краще запам'ятав матеріал.<br>А найголовніше — якщо забуду щось, то завжди матиму змогу зайти, подивитися і згадати. Саме для цьго я і створив цей сайт.</p>
+
+        <h3 id="start">Зміст:</h3>
+        <p style="font-size: 18px">
+        <a href="#html">Html</a><br>
+        <a href="#tagtag">Парні теги</a><br>
+        <a href="#tag">Одинарні теги</a><br>
+        <a href="#css">Css</a><br>
+        <a href="#style">Css стилі</a>
+        </p>
+
+
+        <h2 id="html" style="font-size: 40px; text-align: center">Html</h2>
+        <p style="text-align: center">
+            <img src="https://astwellsoft.com/assets/images/technologies/html5-logo.png" height="200px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW7rq2G6jja3bja7ottt0nDplvApog8p0HXg&usqp=CAU" height="200px">
+            <img src="https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg" height="200px">
+            <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/10/HTML-Tree-Structure.png" height="200px">
+        </p>
+        
+        
+        <p>Теги записуються у &lt&gt</p>
+        <p>Html теги бувають:<br>одинарні: &ltbr&gt, &ltimg&gt<br>парні: &lthtml&gt&lt/html&gt, &ltbody&gt&lt/body&gt, &lth1&gt&lt/h1&gt, &ltp&gt&lt/p&gt, &lta&gt&lt/a&gt</p>
+        <p>Парні теги складаються з відкриваючого &ltтег&gt (&lttitle&gt) і закриваючого &lt/тег&gt (&lt/title&gt) тегів.</p>
+        <p>Одинарні теги складаються тільки з відкриваючого тегу.</p>
+        <p>Атрибути записуються до відкриваючого тегу через пробіл, значення атрибуту записується після знаку = в лапках "":<br>&ltтег атрибут=""&gt&lt/тег&gt<br>Атрибутів може бути декілька.</p>
+
+
+        <p>Всі теги мають атрибут style, за допомогою якого можна задавати Css стилі.</p>
+        <p>Також всі теги мають атрибут id, за допомогою якого можна створити посилання на частину сайту.<br> id тегів повинні бути унікальними, вони не мають повторюватися!</p>
+
+        <p>Наприклад, в нас є абзац зі статтею, проте він знаходиться в самому кінці.<br>
+            <font>&ltp&gtСтаття&lt/p&gt</font><br>
+            На початку сайту ми хочемо зробити зміст, який матиме посилання на цю статтю.<br>
+            <font>&lth3&gtЗміст&lt/h3&gt</font><br>
+            Додамо до тегу &ltp&gt атрибут id зі значенням, наприклад, last-article.<br>
+            <font>&ltp id="last-article"&gtСтаття&lt/p&gt</font><br>
+            Після цього скористаємося тегом &lta&gt, вказавши в посиланні символ #, а тоді id елемента, на який хочемо переходити.<br>
+            <font>&lth3&gtЗміст&lt/h3&gt</font><br>
+            <font>&lta href="#last-article"&gtОстання стаття&lt/a&gt</font><br>
+            Тепер при натисканні на текст "Остання статя" ми будемо переходити до абзацу, id якого last-article.
+        </p>
+
+        <p style="text-align: right">
+            <a href="#start">
+                <img src="images/Up arrow.png" width="40px">
+            </a>
+        </p>
+
+
+        <h3 id="tagtag" style="text-align: center">Парні теги</h3>
+        <table style="font-size: 20px; border-collapse: collapse; border: 1px solid black; text-align: center">
+            <tr>
+                <td>Тег</td>
+                <td>Призначення</td>
+                <td>Атрибути</td>
+            </tr>
+            <tr>
+                <td>html</td>
+                <td>В даному тегу знаходиться весь html код</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td>Текст на вкладці браузера</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>body</td>
+                <td>В даному тегу знаходиться та інформація, яку користувач бачить на сайті</td>
+                <td>background — зображення на фоні</td>
+            </tr>
+            <tr>
+                <td>header</td>
+                <td>Шапка сайту з логотипом і меню</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>main</td>
+                <td>Основна частина сайту</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>footer</td>
+                <td>Підвал сайту з контактними даними, посиланнями на соцмережі...</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>h1..h6</td>
+                <td>Заголовки h1 — найбільший, h6 — найменший</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>Абзац тексту</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>Робить текст або картинку посиланням</td>
+                <td>href — посилання</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td>Жирний текст</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>i</td>
+                <td>Курсивний текст</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>Таблиця</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>Рядок таблиці</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>Комірка таблиці</td>
+                <td>colspan — об'єднання комірок в колонках (по горизонталі) <br>rowspan — об'єднання комірок в рядках (по вертикалі)</td>
+            </tr>
+            <tr>
+                <td>font</td>
+                <td>Колір частинки тексту</td>
+                <td>color — колір</td>
+            </tr>
+            <!-- <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> --> 
+        </table>
+
+        <p style="text-align: right">
+            <a href="#start">
+                <img src="images/Up arrow.png" width="40px">
+            </a>
+        </p>
+
+        <h3 id="tag" style="text-align: center">Одинарні теги</h3>
+        <table style="font-size: 20px; border-collapse: collapse; border: 1px solid black; text-align: center;">
+            <tr>
+                <td>Тег</td>
+                <td>Призначення</td>
+                <td>Атрибути</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>Вставлення зображення</td>
+                <td>src — посилання на зображення<br>width — ширина зображення<br>height — висота зображення<br>opacity — прозорість (від 0 до 1)</td>
+            </tr>
+            <tr>
+                <td>br</td>
+                <td>Переносить на наступний рядок</td>
+                <td>—</td>
+            </tr>
+        </table>
+        
+        <p style="text-align: right; font-size: 17px;">
+            <i>*Теги мають дуже багато атрибутів,<br>позначені тільки ті, які вивчалися!</i>
+        </p>
+        <p style="text-align: right; font-size: 17px;">
+            <i>**Атрибути id і style не зазначені,<br>оскільки їх мають усі теги.</i>
+        </p>
+
+        <p style="text-align:right">
+            <a href="#start">
+                <img src="images/Up arrow.png" width="40px">
+            </a>
+        </p>
+
+
+
+        <h2 id="css" style="font-size: 40px; text-align: center">Css</h2>
+        <p style="text-align: center">
+            <img src="https://astwellsoft.com/assets/images/technologies/css3-logo-.png" height="200px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVUnkiT9QTD1LqFXFOTmJRqJEM1-rClQ6L-g&usqp=CAU" height="200px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJ1cf-bUX2R6r9NediKgwMpLhdRF23NKu5w&usqp=CAU" height="200px">
+        </p>
+        
+
+        <p>Css стилі записуються в атрибуті style:<br>стиль: значення; стиль: значення</p>
+        <p>Наприклад задамо параграфу з текстом 'Hello world!' зелений фон і жовтий колір тексту<br>
+            Код виглядатиме ось так:<br>
+            <font>&ltp style="background-color: green; color: yellow"&gtHello world!&lt/p&gt</font>
+            <br>Результат:<br>
+        </p>
+        <p style="padding: 2px; background-color: green; color: yellow">Hello world!</p>
+
+        <p style="text-align: right">
+            <a href="#start">
+                <img src="images/Up arrow.png" width="40px">
+            </a>
+        </p>
+
+
+        
+        <h3 id="style" style="text-align: center">Css стилі</h3>
+        <table style="font-size: 20px; border-collapse: collapse; border: 1px solid black; text-align: center">
+            <tr>
+                <td>Css стилі</td>
+                <td>Призначення</td>
+                <td>Приклади значень</td>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>Межа<br>(товщина тип колір)</td>
+                <td>1px solid black<br>3px solid green</td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>Колір фону</td>
+                <td rowspan="2">red, green, blue...<br>#f4ffe5, #FFFF00<br>
+                    <i style="font-size: 18px">
+                        Сайти з кольрами:<br>
+                        <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D1%8C%D0%BE%D1%80%D0%B8_HTML" style="font-size: 16px">Вікіпедія</a><br>
+                        <a href="https://www.w3schools.com/colors/colors_names.asp" style="font-size: 16px">Кольори, які можна задавати словами</a>
+                    </i>
+                </td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>Колір тексту</td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>Шрифт</td>
+                <td>sans-serif (шрифти без засічок)</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>Розмір символів</td>
+                <td>10px, 50px, 25px...</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Розміщення тексту</td>
+                <td>right, left, center</td>
+            </tr>
+            <tr>
+                <td>border-collapse</td>
+                <td>Проміжки між межами в таблиці</td>
+                <td>collapse (прибирає проміжки між межами)</td>
+            </tr>
+            <!-- <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> -->
+        </table>
+
+        <p style="text-align:right">
+            <a href="#start">
+                <img src="images/Up arrow.png" width="40px">
+            </a>
+        </p>
+
+    </main>
+
+
+    <footer style="background-color: #161D26; padding: 10px">
+        <h3 style="color: #9196a6">Контактні дані:</h3>
+        <p style="color: #646878; font-size: 16px;">Номер телофону — 0671206362</p>
+        <p style="color: #646878; font-size: 16px;">Електронна адреса — nazarzabeida@gmail.com</p>
+        <h3 style="color: #9196a6">Корисні сайти:</h3>
+        <a style="color: #646878; font-size: 16px;" href="https://css.in.ua/">Український веб-довідник</a>
+        <h3 style="color: #9196a6">Соцмережі:</h3>
+        <a>
+            <img src="">
+        </a>
+        <a>
+            <img src="">
+        </a>
+        <a>
+            <img src="">
+        </a>
+
+    </footer>
+</body>
+
+</html>
