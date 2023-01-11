@@ -6,4 +6,4 @@ https://zabeidanazar.github.io/my_website/ - index.html (недороблени�
 
 https://zabeidanazar.github.io/my_website/test.html - тестовий варіант сайту
 
-https://zabeidanazar.github.io/my_website/ - 
+https://zabeidanazar.github.io/my_website/project.html - мій перший сайт
